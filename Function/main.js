@@ -16,3 +16,13 @@ if(MyName == "Nadim"){
     console.log("No No");
 }
 }
+DisplayName();
+//or Immediately Invoked Function Expression.
+(function DisplayName(){
+    let MyName = "Nadim";
+    if(MyName == "Nadim"){
+        console.log("Hello" + MyName);
+    }else{
+        console.log("No No");
+    }
+    })();
