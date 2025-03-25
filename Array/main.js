@@ -22,3 +22,9 @@ console.log(Name.length);
 if (Name.length >= 11){
     console.log("Welcom -: "+" "+ Name);
 }
+//Array Methods
+let asd = ["asdd","dddd","eeeee"];
+console.log(typeof(asd));
+
+asd = asd.toString();
+document.write(asd);
