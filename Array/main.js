@@ -35,3 +35,9 @@ let MyDate1 = MyDate.toLocaleDateString();
 document.writeln(MyDate);
 console.log(MyDate);
 console.log(MyDate1);
+
+// Add Dinamec Name in Array
+let list = ["did", "nin", "him"];
+list.push("ram", "Dah", "Mah", "Dinamec");
+console.log(list);
+list.unshift("sss","ddd","mmm");
