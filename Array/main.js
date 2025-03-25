@@ -68,3 +68,12 @@ console.log(typeof(w));
 
 let search = w1.indexOf("vvin");
 console.log(search);
+if(w1.indexOf("vvin") < 10){
+    console.log("ok " + search);
+}
+
+// string methods
+let Number = 10;
+let NumberTostring = Number.toString();
+console.log(NumberTostring); // Logs the string "10"
+console.log(typeof(NumberTostring)); // Logs "string"
