@@ -77,3 +77,7 @@ let Number = 10;
 let NumberTostring = Number.toString();
 console.log(NumberTostring); // Logs the string "10"
 console.log(typeof(NumberTostring)); // Logs "string"
+
+let NameSerch = "abcdef ghuui";
+let sarchName = NameSerch.search("cd");
+console.log(sarchName);
