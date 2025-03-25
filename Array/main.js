@@ -28,3 +28,10 @@ console.log(typeof(asd));
 
 asd = asd.toString();
 document.write(asd);
+console.log(typeof(asd));
+
+let MyDate = new Date();
+let MyDate1 = MyDate.toLocaleDateString();
+document.writeln(MyDate);
+console.log(MyDate);
+console.log(MyDate1);
