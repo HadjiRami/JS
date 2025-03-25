@@ -65,3 +65,6 @@ console.log(w);
 let w1 = y.concat(z);
 console.log(w1);
 console.log(typeof(w));
+
+let search = w1.indexOf("vvin");
+console.log(search);
