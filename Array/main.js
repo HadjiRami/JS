@@ -81,3 +81,8 @@ console.log(typeof(NumberTostring)); // Logs "string"
 let NameSerch = "abcdef ghuui";
 let sarchName = NameSerch.search("cd");
 console.log(sarchName);
+
+let c1 = "mohmed";
+let c2 = "ahmed";
+let c3 = c1.concat(c2);
+console.log(c3);
