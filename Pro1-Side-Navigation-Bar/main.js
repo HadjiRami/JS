@@ -1,7 +1,7 @@
 
 
 let opennav = document.getElementById("opennav");
-let close = document.getElementById("Closenav");
+let close = document.getElementById("closenav");
 let side = document.getElementById("sidenav");
 
 // Open the sidebar when "opennav" is clicked
